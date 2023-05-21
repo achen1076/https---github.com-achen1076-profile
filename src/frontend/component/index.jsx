@@ -286,7 +286,7 @@ export class IndexAboutMe extends Component {
             <h1 className="header__about-me--green">Projects</h1>
             <p className="text__about-me--green">
               Here are some of the projects I have worked on over the past
-              couple years
+              couple years. (click on the slides for more)
             </p>
             <section className="index-bar-container">
               <div
@@ -295,28 +295,37 @@ export class IndexAboutMe extends Component {
                 onLoad={() => changeSlide(1)}
               >
                 <div id="slide1" class="mySlides slide1 fade">
-                  <img className="slide-img" src={"./media_public/1.png"} />
-                  <div class="text"></div>
+                  <a href="https://bajamas.org" target="_blank">
+                    <img className="slide-img" src={"./media_public/1.png"} />
+                  </a>
+                  <a href="https://github.com/achen1076/da" target="_blank">
+                    <div class="text__slide">github</div>
+                  </a>
                 </div>
                 <div id="slide2" class="mySlides slide2 fade">
-                  <img className="slide-img" src={"./media_public/2.png"} />
-                  <div class="text"></div>
+                  <a
+                    href="https://github.com/achen1076/portfolio"
+                    target="_blank"
+                  >
+                    <img className="slide-img" src={"./media_public/2.png"} />
+                  </a>
+                  <div class="text__slide"></div>
                 </div>
                 <div id="slide3" class="mySlides slide3 fade">
                   <img className="slide-img" src={"./media_public/3.png"} />
-                  <div class="text"></div>
+                  <div class="text__slide"></div>
                 </div>
                 <div id="slide4" class="mySlides slide3 fade">
                   <img className="slide-img" src={"./media_public/4.png"} />
-                  <div class="text"></div>
+                  <div class="text__slide"></div>
                 </div>
                 <div id="slide5" class="mySlides slide3 fade">
                   <img className="slide-img" src={"./media_public/5.png"} />
-                  <div class="text"></div>
+                  <div class="text__slide"></div>
                 </div>
                 <div id="slide6" class="mySlides slide3 fade">
                   <img className="slide-img" src={"./media_public/6.png"} />
-                  <div class="text"></div>
+                  <div class="text__slide"></div>
                 </div>
                 <a class="prev" onClick={lastSlide}>
                   &#10094;
