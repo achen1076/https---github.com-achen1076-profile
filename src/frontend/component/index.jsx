@@ -65,9 +65,9 @@ export function IndexTitleContainer() {
         <div className="container__intro">
           <h1 class="header__name">Hi. I'm Andrew Chen</h1>
           <h3 class="sub-header__intro">
-            Currently finishing up my Computer Science and Finance BS at
-            Michigan State University. I am passionate about software and full
-            stack delevopment and everything business.
+            Currently finishing up my Computer Science BS at Michigan State
+            University. I am passionate about software and full stack
+            delevopment and everything business.
           </h3>
         </div>
         <div className="container__profile-image">
@@ -151,7 +151,7 @@ export class IndexAboutMe extends Component {
       }
       if (slideNum == 1) {
         newTimelineText.innerHTML =
-          "Currently working for Comerica Banks as a Technology/Software Development intern. Working with a team using Microsoft PowerApps development to improve tech standards lookup tool and code automation using Terraform.";
+          "Currently working for Comerica Banks as a Technology/Software Development intern. Working with a team using Microsoft PowerApps and PowerBi development to improve tech standards lookup tool and create an application for the Architect Review Board Process. Also working on code automation using Terraform.";
         newTimelineText.style.animation = "fade-in 2s";
 
         newTimelineTitle.innerHTML = "Comerica Bank";
@@ -191,15 +191,14 @@ export class IndexAboutMe extends Component {
             <h1 className="header__about-me--white">Who am I?</h1>
 
             <p className="text__about-me--white">
-              Hi, my name is Andrew Chen. I study Computer Science and Finance
-              at Michigan State University. Currently I am set to graduate in
-              2025 with a dual degree. The summer of 2021, right after
-              highschool graduation I decided to pursue my first ever coding
-              project. I took my passion for the stock market and my drive to
-              learn some coding and created a stock screening API. Having never
-              coded before, it was a challenge at the time. Never did I expect
-              that to have lead me to my passion of software, full stack web
-              development, and product management.
+              Hi, my name is Andrew Chen. I study Computer Science at Michigan
+              State University. Currently I am set to graduate in 2024/25. The
+              summer of 2021, right after highschool graduation I decided to
+              pursue my first ever coding project. I took my passion for the
+              stock market and my drive to learn some coding and created a stock
+              screening API. Having never coded before, it was a challenge at
+              the time. Never did I expect that to have lead me to my passion of
+              software, full stack web development, and product management.
             </p>
           </div>
         </div>
@@ -312,7 +311,12 @@ export class IndexAboutMe extends Component {
                   <div class="text__slide"></div>
                 </div>
                 <div id="slide3" class="mySlides slide3 fade">
-                  <img className="slide-img" src={"./media_public/3.png"} />
+                  <a
+                    href="https://gitlab.msu.edu/common-grackle/project1/-/tree/master"
+                    target="_blank"
+                  >
+                    <img className="slide-img" src={"./media_public/3.png"} />
+                  </a>
                   <div class="text__slide"></div>
                 </div>
                 <div id="slide4" class="mySlides slide3 fade">
@@ -406,7 +410,7 @@ export class IndexAboutMe extends Component {
                     <dd className="description-definition__coding-skill-rating">
                       <span class="fa fa-star black-star"></span>
                       <span class="fa fa-star black-star"></span>
-                      <span class="fa fa-star gray-star"></span>
+                      <span class="fa fa-star black-star"></span>
                       <span class="fa fa-star gray-star"></span>
                       <span class="fa fa-star gray-star"></span>
                     </dd>
@@ -441,6 +445,18 @@ export class IndexAboutMe extends Component {
                       <span class="fa fa-star black-star"></span>
                       <span class="fa fa-star black-star"></span>
                       <span class="fa fa-star black-star"></span>
+                      <span class="fa fa-star gray-star"></span>
+                      <span class="fa fa-star gray-star"></span>
+                    </dd>
+                  </dl>
+                  <dl className="description-list__coding-skills-list">
+                    <dt className="description-term__coding-skill-item">
+                      Java
+                    </dt>
+                    <dd className="description-definition__coding-skill-rating">
+                      <span class="fa fa-star black-star"></span>
+                      <span class="fa fa-star black-star"></span>
+                      <span class="fa fa-star gray-star"></span>
                       <span class="fa fa-star gray-star"></span>
                       <span class="fa fa-star gray-star"></span>
                     </dd>
@@ -493,7 +509,7 @@ export class IndexAboutMe extends Component {
                     </dt>
                     <dd className="description-definition__coding-skill-rating">
                       <span class="fa fa-star black-star"></span>
-                      <span class="fa fa-star gray-star"></span>
+                      <span class="fa fa-star black-star"></span>
                       <span class="fa fa-star gray-star"></span>
                       <span class="fa fa-star gray-star"></span>
                       <span class="fa fa-star gray-star"></span>
@@ -505,7 +521,19 @@ export class IndexAboutMe extends Component {
                     </dt>
                     <dd className="description-definition__coding-skill-rating">
                       <span class="fa fa-star black-star"></span>
-                      <span class="fa fa-star gray-star"></span>
+                      <span class="fa fa-star black-star"></span>
+                      <span class="fa fa-star black-star"></span>
+                      <span class="fa fa-star black-star"></span>
+                      <span class="fa fa-star black-star"></span>
+                    </dd>
+                  </dl>
+                  <dl className="description-list__coding-skills-list">
+                    <dt className="description-term__coding-skill-item">
+                      Microsoft PowerBI
+                    </dt>
+                    <dd className="description-definition__coding-skill-rating">
+                      <span class="fa fa-star black-star"></span>
+                      <span class="fa fa-star black-star"></span>
                       <span class="fa fa-star gray-star"></span>
                       <span class="fa fa-star gray-star"></span>
                       <span class="fa fa-star gray-star"></span>
@@ -533,7 +561,7 @@ export class IndexAboutMe extends Component {
         </div>
         <div className="container__index-about-body">
           <div className="container__index-text-field--fixed">
-            <h1 className="header__about-me--green">coming soon</h1>
+            <h1 className="header__about-me--green">more coming soon</h1>
             <p className="text__about-me--green">...</p>
           </div>
         </div>
@@ -561,7 +589,7 @@ export class IndexAboutMe extends Component {
               </li>
             </ul>
             <p className="text__footer">
-              This website was created by Andrew Chen on Visual Studio Code.
+              This website is created by Andrew Chen on Visual Studio Code.
               Built with React, HTML, JavaScript and CSS completely by hand.
             </p>
           </div>
