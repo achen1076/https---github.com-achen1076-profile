@@ -4,6 +4,7 @@ import "./frontend/style.css";
 import App from "./frontend/App.js";
 import { BrowserRouter } from "react-router-dom";
 
+
 // da entry point!
 
 const root = document.getElementById("root");
