@@ -2,7 +2,7 @@ import React from "react";
 
 export default function IndexTitleContainer() {
   return (
-    <div className="     " id="home">
+    <div className="" id="home">
       <div className="container__intro">
         <h1 className="header__name">Hi. I'm Andrew Chen</h1>
         <h3 className="sub-header__intro">

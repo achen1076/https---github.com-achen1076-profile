@@ -25,7 +25,7 @@ export default function ExperiencesSection() {
           break;
         case 2:
           setTimelineText(
-            "Currently a DevOps Engineer Intern at Comerica Bank. Working with teams to migrate applications to AWS 2.0 and ensuring automation via Jenkins Pipelines. Working with many different tools on this pipeline including Terraform as an IaC tool and many other tools."
+            "Currently a DevOps Engineer Intern at Comerica Bank. Working with teams to migrate applications to AWS 2.0 and ensuring automation using Jenkins pipelines. Working with many different tools on this pipeline including Terraform as an IaC tool and many other tools I have not yet used."
           );
           setTimelineTitle("Comerica Bank - DevOps Engineer");
           break;
@@ -80,42 +80,36 @@ export default function ExperiencesSection() {
         >
           Overview
         </div>
-        <br />
         <div
           onClick={() => changeTimelineExperiences(1)}
           className="btn link__timeline"
         >
           Comerica Bank - <br /> Enterprise Architect
         </div>
-        <br />
         <div
           onClick={() => changeTimelineExperiences(2)}
           className="btn link__timeline"
         >
           Comerica Bank - <br /> DevOps Engineer
         </div>
-        <br />
         <div
           onClick={() => changeTimelineExperiences(3)}
           className="btn link__timeline"
         >
           Ztron
         </div>
-        <br />
         <div
           onClick={() => changeTimelineExperiences(4)}
           className="btn link__timeline"
         >
           Swift Drinks
         </div>
-        <br />
         <div
           onClick={() => changeTimelineExperiences(5)}
           className="btn link__timeline"
         >
           Freelancing
         </div>
-        <br />
         <div
           onClick={() => changeTimelineExperiences(7)}
           className="btn link__timeline"

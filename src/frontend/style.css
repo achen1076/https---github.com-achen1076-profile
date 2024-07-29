@@ -437,7 +437,7 @@ body {
   width: max-content;
   max-width: 15vw;
   height: fit-content;
-  margin-top: 3vh;
+  margin-top: 6vh;
   margin-left: 2vw;
 }
 
@@ -619,7 +619,7 @@ body {
 .container__sidebar-items {
   margin-bottom: 3vh;
   text-align: right;
-  color: gray;
+  color: #c3c3c3;
   font-size: calc((1.6vh + 1.6vw) / 2);
   position: relative;
   cursor: pointer;
@@ -633,7 +633,7 @@ body {
   left: 0;
   bottom: 3px;
   width: 100%;
-  height: 8px;
+  height: 1vh;
   z-index: -1;
   transition: all 0.3s ease-in-out;
 }

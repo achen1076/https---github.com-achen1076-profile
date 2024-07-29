@@ -83,7 +83,7 @@ export default function SkillsSection() {
               </dl>
               <dl className="description-list__coding-skills-list">
                 <dt className="description-term__coding-skill-item">
-                  Typescript
+                  Typescriptnpm t
                 </dt>
                 <dd className="description-definition__coding-skill-rating">
                   <span className="fa fa-star black-star"></span>
